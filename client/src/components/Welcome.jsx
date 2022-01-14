@@ -53,6 +53,7 @@ const Welcome = () => {
               onClick={connectWallet}
               className="flex flex-row justify-center items-center my-5 bg-[#2952e3] p-3 rounded-full cursor-pointer hover:bg-[#2546bd]"
             >
+              <AiFillPlayCircle className="text-white mr-2" />
               <p className="text-white text-base font-semibold">
                 Connet Wallet
               </p>
@@ -87,7 +88,9 @@ const Welcome = () => {
               </div>
 
               <div>
-                <p className="text-white font-light text-sm">{shortenAddress(currentAccount)}</p>
+                <p className="text-white font-light text-sm">
+                  {shortenAddress(currentAccount)}
+                </p>
                 <p className="text-white font-semibold text-lg mt-1">
                   Ethereum
                 </p>
