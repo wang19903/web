@@ -1,6 +1,6 @@
 {
   "name": "krypt",
-  "homepage": "https://wang19903.github.io/web3.0/",
+  "homepage": "https://wang19903.github.io/web/",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
